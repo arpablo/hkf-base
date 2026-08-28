@@ -30,4 +30,4 @@ bequem in der Notiz, ein umfangreiches kostet Platz, den die meisten
 Wissensbasen nie lesen.
 
 Welche Spezifikation für die Wissensbasis selbst gilt, sagt `spec` in ihrer
-Wurzeldatei.
+Wurzeldatei (Core A.1).

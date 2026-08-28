@@ -28,6 +28,6 @@ Eine Quellennotiz beschreibt das zitierte Werk, nicht die eigene Auswertung.
 Was man daraus gelernt hat, gehört in eine `note`, die per `sources` auf die
 Quelle verweist.
 
-`url` und `file` sind zwei Properties und keine Alternative: `url` ist die
-Fundstelle des Werks, `file` eine in der Ablage liegende Ausfertigung. Beide
-dürfen nebeneinander gesetzt sein.
+`url` und `file` sind bewusst zwei Properties und keine Alternative (Core §3.7.2):
+`url` ist die Fundstelle des Werks, `file` eine in der Ablage liegende
+Ausfertigung. Beide dürfen nebeneinander gesetzt sein.
