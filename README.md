@@ -6,7 +6,7 @@ Dieses Repository ist ein **HKF-Bundle**. Es liefert das Vokabular von
 
 | | |
 |---|---|
-| Kennung | `hkf` |
+| Kennung | `hkf-base` |
 | Fassung | `1.0` |
 | setzt voraus | HKF Core 1.0 |
 
@@ -35,7 +35,7 @@ Wissensbasis beim Anlegen selbst an; ein Bundle liefert sie nicht.
 ## Verwenden
 
 Das Bundle wird mit `hk-import` in eine bestehende Wissensbasis geladen.
-Danach steht dort in `bundles/hkf.md` eine Notiz mit dem Importnachweis, und
+Danach steht dort in `bundles/hkf-base.md` eine Notiz mit dem Importnachweis, und
 jede übernommene Typdefinition trägt die Zugehörigkeit in ihrer
 `bundles`-Property.
 
