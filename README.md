@@ -1,0 +1,54 @@
+# HKF Base — das Standardvokabular
+
+Dieses Repository ist ein **HKF-Bundle**. Es liefert das Vokabular von
+**HKF Base 1.0**: neun Typdefinitionen und zwei Aufzählungen. Wurzeldatei ist
+`hbundle.md`.
+
+| | |
+|---|---|
+| Kennung | `hkf` |
+| Fassung | `1.0` |
+| setzt voraus | HKF Core 1.0 |
+
+## Was geliefert wird
+
+| Typ | Verzeichnis | Zweck |
+|---|---|---|
+| `person` | `persons` | Ein Mensch. |
+| `organisation` | `organisations` | Eine Körperschaft: Unternehmen, Institut, Verein, Behörde. |
+| `place` | `places` | Ein geographischer Ort. |
+| `event` | `events` | Ein Geschehen zu einer bestimmten Zeit. |
+| `source` | `sources` | Eine zitierbare Quelle: Buch, Aufsatz, Webseite, Vortrag. |
+| `term` | `terms` | Ein definierter Begriff. |
+| `topic` | `topics` | Ein Themengebiet als Einstiegspunkt. |
+| `note` | `notes` | Eine Notiz ohne spezifischeren Typ. |
+| `specification` | `specifications` | Ein normatives Dokument, an das sich die Wissensbasis hält. |
+
+Dazu die beiden Property-Typen `hkf-person-category` und
+`hkf-organisation-category`, die nur mit `person` und `organisation` Sinn
+ergeben.
+
+**Keine Notizen, keine Mediendateien, keine Grundausstattung.** Die
+Property-Typen und die Kern-Typen `typedef`, `proptype` und `bundle` legt eine
+Wissensbasis beim Anlegen selbst an; ein Bundle liefert sie nicht.
+
+## Verwenden
+
+Das Bundle wird mit `hk-import` in eine bestehende Wissensbasis geladen.
+Danach steht dort in `bundles/hkf.md` eine Notiz mit dem Importnachweis, und
+jede übernommene Typdefinition trägt die Zugehörigkeit in ihrer
+`bundles`-Property.
+
+Der Import ist **freiwillig**. Eine Wissensbasis, die andere Gegenstände
+verwaltet, definiert stattdessen eigene Typen. Wer aber einen Typ dieses
+Namens führt, führt ihn in dieser Fassung — nur so bleiben Bundles zwischen
+fremden Wissensbasen austauschbar.
+
+## Fortschreibung
+
+Eine neue Fassung darf Typen ergänzen, Properties ergänzen und die `values`
+der beiden Aufzählungen erweitern. Sie darf nichts entfernen und keine
+Bedeutung ändern, weil das vorhandene Notizen ungültig machte.
+
+Fortschreibung in einer Wissensbasis ist ein erneuter Import: geänderte
+Notizen werden übernommen, unveränderte übersprungen.
