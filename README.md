@@ -1,14 +1,21 @@
 # HKF Base — das Standardvokabular
 
 Dieses Repository ist ein **HKF-Bundle**. Es liefert das Vokabular von
-**HKF Base 1.0**: neun Typdefinitionen und zwei Aufzählungen. Wurzeldatei ist
-`hbundle.md`.
+[**HKF Base 1.0**](https://github.com/arpablo/hkf-spec/blob/main/HKF-Base-V1.0.md): neun Typdefinitionen und zwei Aufzählungen.
+Wurzeldatei ist `hbundle.md`.
 
 | | |
 |---|---|
 | Kennung | `hkf-base` |
 | Fassung | `1.0` |
-| setzt voraus | HKF Core 1.0 |
+| Spezifikation | [`HKF-Base-V1.0.md`](https://github.com/arpablo/hkf-spec/blob/main/HKF-Base-V1.0.md) |
+| setzt voraus | [HKF Core 1.0](https://github.com/arpablo/hkf-spec/blob/main/HKF-Core-V1.0.md) |
+
+Die verbindliche Fassung steht in der Spezifikation, nicht hier: Was dieses
+Bundle ausliefert, ist die maschinenlesbare Form von [§3 in
+HKF-Base-V1.0.md](https://github.com/arpablo/hkf-spec/blob/main/HKF-Base-V1.0.md#3-typdefinitionen). Weichen beide voneinander ab, gilt
+die Spezifikation — `tools/check-base.py` im Repository
+[`hkf-spec`](https://github.com/arpablo/hkf-spec) prüft das.
 
 ## Was geliefert wird
 
@@ -34,7 +41,9 @@ Wissensbasis beim Anlegen selbst an; ein Bundle liefert sie nicht.
 
 ## Verwenden
 
-Das Bundle wird mit `hk-import` in eine bestehende Wissensbasis geladen.
+Das Bundle wird mit `hk-import` in eine bestehende Wissensbasis geladen — etwa
+in eine, die aus der Vorlage [`hkf-kb-template`](https://github.com/arpablo/hkf-kb-template) entstanden
+ist.
 Danach steht dort in `bundles/hkf-base.md` eine Notiz mit dem Importnachweis, und
 jede übernommene Typdefinition trägt die Zugehörigkeit in ihrer
 `bundles`-Property.
@@ -46,6 +55,7 @@ fremden Wissensbasen austauschbar.
 
 ## Fortschreibung
 
+Die Regeln dafür stehen in [§5 von HKF-Base-V1.0.md](https://github.com/arpablo/hkf-spec/blob/main/HKF-Base-V1.0.md#5-versionierung).
 Eine neue Fassung darf Typen ergänzen, Properties ergänzen und die `values`
 der beiden Aufzählungen erweitern. Sie darf nichts entfernen und keine
 Bedeutung ändern, weil das vorhandene Notizen ungültig machte.
