@@ -4,7 +4,7 @@ type: bundle
 id: hkf
 base: ""
 title: HKF Base
-description: Das Vokabular von HKF Base 1.0: neun Typdefinitionen und die beiden Aufzählungen, die nur mit ihnen Sinn ergeben.
+description: Das Vokabular von HKF Base 1.0 — neun Typdefinitionen und die beiden Aufzählungen, die nur mit ihnen Sinn ergeben.
 source: https://github.com/arpablo/henni-knowledge-format
 version: "1.0"
 ---
