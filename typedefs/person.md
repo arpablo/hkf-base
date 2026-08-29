@@ -3,7 +3,7 @@ type: typedef
 title: Person
 description: Ein Mensch.
 created: 2026-08-27
-modified: 2026-08-27T15:41:37
+modified: 2026-08-29T07:23:15
 modified_by: claude-opus-5
 ---
 
@@ -24,6 +24,7 @@ modified_by: claude-opus-5
 | phone | hkf-phone | nein | Telefonnummer |
 | portrait | hkf-file:image / hkf-url | nein | Bild der Person, als Datei in der Ablage oder als Adresse im Netz |
 | wikidata_id | hkf-wikidata | nein | Kennung des Gegenstands in Wikidata |
+| related | hkf-link-or-url-list | nein | Verwandtes: Notizen oder Adressen; nimmt auf, was unter „Siehe auch" steht |
 
 # Konventionen
 

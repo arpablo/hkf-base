@@ -3,7 +3,7 @@ type: typedef
 title: Ort
 description: Ein geographischer Ort.
 created: 2026-08-27
-modified: 2026-08-27T15:41:37
+modified: 2026-08-29T07:23:15
 modified_by: claude-opus-5
 ---
 
@@ -18,6 +18,7 @@ modified_by: claude-opus-5
 | part_of | hkf-link:place | nein | Übergeordneter Ort |
 | image | hkf-file:image / hkf-url | nein | Ansicht, als Datei in der Ablage oder als Adresse im Netz |
 | wikidata_id | hkf-wikidata | nein | Kennung des Gegenstands in Wikidata |
+| related | hkf-link-or-url-list | nein | Verwandtes: Notizen oder Adressen; nimmt auf, was unter „Siehe auch" steht |
 
 # Konventionen
 

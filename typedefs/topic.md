@@ -3,7 +3,7 @@ type: typedef
 title: Thema
 description: Ein Themengebiet als Einstiegspunkt.
 created: 2026-08-27
-modified: 2026-08-27T12:40:50
+modified: 2026-08-29T07:23:15
 modified_by: claude-opus-5
 ---
 
@@ -12,7 +12,7 @@ modified_by: claude-opus-5
 | Property | Typ | Pflicht | Beschreibung |
 |---|---|---|---|
 | parent | hkf-link:topic | nein | Übergeordnetes Thema |
-| related | hkf-link-list:topic | nein | Benachbarte Themen |
+| related | hkf-link-or-url-list | nein | Verwandtes: Notizen oder Adressen; nimmt auf, was unter „Siehe auch" steht |
 
 # Konventionen
 

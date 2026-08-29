@@ -3,7 +3,7 @@ type: typedef
 title: Notiz
 description: Eine Notiz ohne spezifischeren Typ.
 created: 2026-08-27
-modified: 2026-08-27T12:40:50
+modified: 2026-08-29T07:23:15
 modified_by: claude-opus-5
 ---
 
@@ -13,6 +13,7 @@ modified_by: claude-opus-5
 |---|---|---|---|
 | about | hkf-link-list | nein | Worauf sich die Notiz bezieht |
 | sources | hkf-link-list:source | nein | Verwendete Quellen |
+| related | hkf-link-or-url-list | nein | Verwandtes: Notizen oder Adressen; nimmt auf, was unter „Siehe auch" steht |
 
 # Konventionen
 

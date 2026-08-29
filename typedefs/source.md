@@ -3,7 +3,7 @@ type: typedef
 title: Quelle
 description: 'Eine zitierbare Quelle: Buch, Aufsatz, Webseite, Vortrag.'
 created: 2026-08-27
-modified: 2026-08-27T15:31:41
+modified: 2026-08-29T07:23:15
 modified_by: claude-opus-5
 ---
 
@@ -21,6 +21,7 @@ modified_by: claude-opus-5
 | accessed | date | nein | Datum des Abrufs |
 | file | hkf-file:document | nein | Beigelegtes Dokument |
 | wikidata_id | hkf-wikidata | nein | Kennung des Gegenstands in Wikidata |
+| related | hkf-link-or-url-list | nein | Verwandtes: Notizen oder Adressen; nimmt auf, was unter „Siehe auch" steht |
 
 # Konventionen
 

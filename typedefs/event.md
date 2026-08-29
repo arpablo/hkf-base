@@ -3,7 +3,7 @@ type: typedef
 title: Veranstaltung
 description: Ein Geschehen zu einer bestimmten Zeit.
 created: 2026-08-27
-modified: 2026-08-27T12:40:50
+modified: 2026-08-29T07:23:15
 modified_by: claude-opus-5
 ---
 
@@ -19,6 +19,7 @@ modified_by: claude-opus-5
 | participants | hkf-link-list:person,organisation | nein | Beteiligte |
 | cancelled | checkbox | nein | Abgesagt |
 | homepage | hkf-url | nein | Ankündigung |
+| related | hkf-link-or-url-list | nein | Verwandtes: Notizen oder Adressen; nimmt auf, was unter „Siehe auch" steht |
 
 # Konventionen
 
