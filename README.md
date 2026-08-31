@@ -1,20 +1,20 @@
-# HKF Base — das Standardvokabular
+# hkf-base — das Vokabular aus HKF Config
 
-Dieses Repository ist ein **HKF-Bundle**. Es liefert das Vokabular von
-[**HKF Base 1.0**](https://github.com/arpablo/hkf-spec/blob/main/HKF-Base-V1.0.md): zwölf Typdefinitionen und zwei Aufzählungen.
+Dieses Repository ist ein **HKF-Bundle**. Es liefert das Vokabular aus
+[**HKF Config 1.0**](https://github.com/arpablo/hkf-spec/blob/main/HKF-Config-V1.0.md): zwölf Typdefinitionen und zwei Aufzählungen.
 Wurzeldatei ist `hbundle.md`.
 
 | | |
 |---|---|
 | Kennung | `hkf-base` |
 | Fassung | `1.0` |
-| Spezifikation | [`HKF-Base-V1.0.md`](https://github.com/arpablo/hkf-spec/blob/main/HKF-Base-V1.0.md) |
+| Spezifikation | [`HKF-Config-V1.0.md`](https://github.com/arpablo/hkf-spec/blob/main/HKF-Config-V1.0.md) |
 | setzt voraus | [HKF Core 1.0](https://github.com/arpablo/hkf-spec/blob/main/HKF-Core-V1.0.md) |
 
 Die verbindliche Fassung steht in der Spezifikation, nicht hier: Was dieses
 Bundle ausliefert, ist die maschinenlesbare Form von [§3 in
-HKF-Base-V1.0.md](https://github.com/arpablo/hkf-spec/blob/main/HKF-Base-V1.0.md#3-typdefinitionen). Weichen beide voneinander ab, gilt
-die Spezifikation — `tools/check-base.py` im Repository
+HKF-Config-V1.0.md](https://github.com/arpablo/hkf-spec/blob/main/HKF-Config-V1.0.md#3-typdefinitionen), Abschnitte §3.4 bis §3.15. Weichen beide voneinander ab, gilt
+die Spezifikation — `tools/check-config.py` im Repository
 [`hkf-spec`](https://github.com/arpablo/hkf-spec) prüft das.
 
 ## Was geliefert wird
@@ -59,7 +59,7 @@ fremden Wissensbasen austauschbar.
 
 ## Fortschreibung
 
-Die Regeln dafür stehen in [§5 von HKF-Base-V1.0.md](https://github.com/arpablo/hkf-spec/blob/main/HKF-Base-V1.0.md#5-versionierung).
+Die Regeln dafür stehen in [§5 von HKF-Config-V1.0.md](https://github.com/arpablo/hkf-spec/blob/main/HKF-Config-V1.0.md#5-versionierung).
 Eine neue Fassung darf Typen ergänzen, Properties ergänzen und die `values`
 der beiden Aufzählungen erweitern. Sie darf nichts entfernen und keine
 Bedeutung ändern, weil das vorhandene Notizen ungültig machte.

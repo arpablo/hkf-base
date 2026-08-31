@@ -4,12 +4,12 @@ type: bundle
 id: hkf-base
 base: ""
 title: HKF Base
-description: Das Vokabular von HKF Base 1.0 — zwölf Typdefinitionen und die beiden Aufzählungen, die nur mit ihnen Sinn ergeben.
+description: Das Vokabular aus HKF Config 1.0 — zwölf Typdefinitionen und die beiden Aufzählungen, die nur mit ihnen Sinn ergeben.
 source: https://github.com/arpablo/hkf-base
 version: "1.0"
 ---
 
-Das Standardvokabular von **HKF Base 1.0**. Es gehört nicht zur
+Das Vokabular aus **HKF Config 1.0**. Es gehört nicht zur
 Grundausstattung einer Wissensbasis, sondern wird zugeladen; der Import ist
 freiwillig.
 

@@ -3,7 +3,7 @@ type: typedef
 title: Hinweis
 description: Eine Festlegung, wie diese Wissensbasis geführt wird.
 created: 2026-08-31
-modified: 2026-08-31T16:29:19
+modified: 2026-08-31T17:53:52
 modified_by: claude-opus-5
 ---
 
@@ -21,7 +21,7 @@ Typdefinition und reist mit ihr in jedes Bundle. **Ein Hinweis bindet
 niemanden außerhalb.** In der Typdefinition steht darum, was `person` überall
 bedeutet; in einem Hinweis, wie hier mit Personen verfahren wird. Wer ihn
 gleichwohl weitergeben will, nimmt ihn in ein Bundle auf — dann gilt für ihn,
-was für jede gelieferte Notiz gilt (§5.5).
+was für jede gelieferte Notiz gilt (Core §5.5).
 
 Eine Spezifikation kommt von außen und wird eingehalten, ein Hinweis wird
 selbst gefasst. Deshalb trägt er weder `version` noch `authority`: Wer ihn
