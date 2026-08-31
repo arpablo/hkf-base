@@ -3,23 +3,23 @@ type: typedef
 title: Veranstaltung
 description: Ein Geschehen zu einer bestimmten Zeit.
 created: 2026-08-27
-modified: 2026-08-29T07:23:15
+modified: 2026-08-31T15:25:58
 modified_by: claude-opus-5
 ---
 
 # Properties
 
-| Property | Typ | Pflicht | Beschreibung |
-|---|---|---|---|
-| date | date | nein | Tag, wenn keine Uhrzeit bekannt ist |
-| starts_at | datetime | nein | Beginn |
-| ends_at | datetime | nein | Ende |
-| location | hkf-link:place | nein | Veranstaltungsort |
-| organizer | hkf-link:person,organisation | nein | Ausrichter |
-| participants | hkf-link-list:person,organisation | nein | Beteiligte |
-| cancelled | checkbox | nein | Abgesagt |
-| homepage | hkf-url | nein | Ankündigung |
-| related | hkf-link-or-url-list | nein | Verwandtes: Notizen oder Adressen; nimmt auf, was unter „Siehe auch" steht |
+| Property | Typ | Pflicht | Vorgabe | Beschreibung |
+|---|---|---|---|---|
+| date | date | nein | — | Tag, wenn keine Uhrzeit bekannt ist |
+| starts_at | datetime | nein | — | Beginn |
+| ends_at | datetime | nein | — | Ende |
+| location | hkf-link:place | nein | — | Veranstaltungsort |
+| organizer | hkf-link:person,organisation | nein | — | Ausrichter |
+| participants | hkf-link-list:person,organisation | nein | — | Beteiligte |
+| cancelled | checkbox | nein | false | Abgesagt |
+| homepage | hkf-url | nein | — | Ankündigung |
+| related | hkf-link-or-url-list | nein | — | Verwandtes: Notizen oder Adressen; nimmt auf, was unter „Siehe auch" steht |
 
 # Konventionen
 

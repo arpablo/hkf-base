@@ -4,7 +4,7 @@ type: bundle
 id: hkf-base
 base: ""
 title: HKF Base
-description: Das Vokabular von HKF Base 1.0 — neun Typdefinitionen und die beiden Aufzählungen, die nur mit ihnen Sinn ergeben.
+description: Das Vokabular von HKF Base 1.0 — elf Typdefinitionen und die beiden Aufzählungen, die nur mit ihnen Sinn ergeben.
 source: https://github.com/arpablo/hkf-base
 version: "1.0"
 ---
@@ -26,6 +26,8 @@ das Bundle nicht — die legt eine HKB beim Anlegen selbst an.
 | event | events | Ein Geschehen zu einer bestimmten Zeit. |
 | source | sources | Eine zitierbare Quelle: Buch, Aufsatz, Webseite, Vortrag. |
 | term | terms | Ein definierter Begriff. |
+| concept | concepts | Eine Sache und der Stand des Wissens über sie. |
+| comparison | comparisons | Eine Gegenüberstellung mehrerer Gegenstände entlang benannter Dimensionen. |
 | topic | topics | Ein Themengebiet als Einstiegspunkt. |
 | note | notes | Eine Notiz ohne spezifischeren Typ. |
 | specification | specifications | Ein normatives Dokument, an das sich die Wissensbasis hält. |
