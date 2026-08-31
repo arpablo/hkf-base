@@ -1,7 +1,7 @@
 # HKF Base — das Standardvokabular
 
 Dieses Repository ist ein **HKF-Bundle**. Es liefert das Vokabular von
-[**HKF Base 1.0**](https://github.com/arpablo/hkf-spec/blob/main/HKF-Base-V1.0.md): elf Typdefinitionen und zwei Aufzählungen.
+[**HKF Base 1.0**](https://github.com/arpablo/hkf-spec/blob/main/HKF-Base-V1.0.md): zwölf Typdefinitionen und zwei Aufzählungen.
 Wurzeldatei ist `hbundle.md`.
 
 | | |
@@ -32,6 +32,7 @@ die Spezifikation — `tools/check-base.py` im Repository
 | `topic` | `topics` | Ein Themengebiet als Einstiegspunkt. |
 | `note` | `notes` | Eine Notiz ohne spezifischeren Typ. |
 | `specification` | `specifications` | Ein normatives Dokument, an das sich die Wissensbasis hält. |
+| `hint` | `hints` | Eine Festlegung, wie diese Wissensbasis geführt wird. |
 
 Dazu die beiden Property-Typen `hkf-person-category` und
 `hkf-organisation-category`, die nur mit `person` und `organisation` Sinn
