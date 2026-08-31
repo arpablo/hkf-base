@@ -20,15 +20,15 @@ das Bundle nicht — die legt eine HKB beim Anlegen selbst an.
 
 | Typ | Verzeichnis | Zweck |
 |---|---|---|
-| person | persons | Ein Mensch. |
-| organisation | organisations | Eine Körperschaft: Unternehmen, Institut, Verein, Behörde. |
-| place | places | Ein geographischer Ort. |
-| event | events | Ein Geschehen zu einer bestimmten Zeit. |
-| source | sources | Eine zitierbare Quelle: Buch, Aufsatz, Webseite, Vortrag. |
-| term | terms | Ein definierter Begriff. |
-| concept | concepts | Eine Sache und der Stand des Wissens über sie. |
-| comparison | comparisons | Eine Gegenüberstellung mehrerer Gegenstände entlang benannter Dimensionen. |
-| topic | topics | Ein Themengebiet als Einstiegspunkt. |
-| note | notes | Eine Notiz ohne spezifischeren Typ. |
-| specification | specifications | Ein normatives Dokument, an das sich die Wissensbasis hält. |
-| hint | hints | Eine Festlegung, wie diese Wissensbasis geführt wird. |
+| person | Persons | Ein Mensch. |
+| organisation | Organisations | Eine Körperschaft: Unternehmen, Institut, Verein, Behörde. |
+| place | Places | Ein geographischer Ort. |
+| event | Events | Ein Geschehen zu einer bestimmten Zeit. |
+| source | Sources | Eine zitierbare Quelle: Buch, Aufsatz, Webseite, Vortrag. |
+| term | Terms | Ein definierter Begriff. |
+| concept | Concepts | Eine Sache und der Stand des Wissens über sie. |
+| comparison | Comparisons | Eine Gegenüberstellung mehrerer Gegenstände entlang benannter Dimensionen. |
+| topic | Topics | Ein Themengebiet als Einstiegspunkt. |
+| note | Notes | Eine Notiz ohne spezifischeren Typ. |
+| specification | Specifications | Ein normatives Dokument, an das sich die Wissensbasis hält. |
+| hint | Hints | Eine Festlegung, wie diese Wissensbasis geführt wird. |
