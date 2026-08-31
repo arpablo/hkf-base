@@ -43,7 +43,8 @@ Wissensbasis beim Anlegen selbst an; ein Bundle liefert sie nicht.
 
 ## Verwenden
 
-Das Bundle wird mit `hk-import` in eine bestehende Wissensbasis geladen — etwa
+Das Bundle wird mit [`hk-import`](https://github.com/arpablo/hkf-harness) in eine bestehende Wissensbasis
+geladen — etwa
 in eine, die aus der Vorlage [`hkf-kb-template`](https://github.com/arpablo/hkf-kb-template) entstanden
 ist.
 Danach steht dort in `bundles/hkf-base.md` eine Notiz mit dem Importnachweis, und
