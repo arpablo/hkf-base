@@ -1,70 +1,30 @@
-# hkf-base — das Vokabular aus HKF Config
+# hkf-base — stillgelegt
 
-Dieses Repository ist ein **HKF-Bundle**. Es liefert das Vokabular aus
-[**HKF Config 1.0**](https://github.com/arpablo/hkf-spec/blob/main/HKF-Config-V1.0.md): vierzehn Typdefinitionen und zwei Aufzählungen.
-Wurzeldatei ist `hbundle.md`.
+Dieses Repository lieferte das Vokabular von HKF als Bundle: Person,
+Körperschaft, Ort, Ereignis, Quelle, Begriff und die übrigen. **Seit HKF
+Config 1.0 wird davon nichts mehr geliefert.**
+
+Alle Typdefinitionen und Property-Typen gehören jetzt zur **Grundausstattung**
+einer Wissensbasis. Sie entstehen mit ihr, statt zugeladen zu werden, und
+stehen darum in der Vorlage:
 
 | | |
 |---|---|
-| Kennung | `hkf-base` |
-| Fassung | `1.0` |
 | Spezifikation | [`HKF-Config-V1.0.md`](https://github.com/arpablo/hkf-spec/blob/main/HKF-Config-V1.0.md) |
-| setzt voraus | [HKF Core 1.0](https://github.com/arpablo/hkf-spec/blob/main/HKF-Core-V1.0.md) |
+| Vorlage | [`hkf-kb-template`](https://github.com/arpablo/hkf-kb-template) |
+| Werkzeuge | [`hkf-harness`](https://github.com/arpablo/hkf-harness) — `hk-init` legt die Grundausstattung an |
 
-Die verbindliche Fassung steht in der Spezifikation, nicht hier: Was dieses
-Bundle ausliefert, ist die maschinenlesbare Form von [§3 in
-HKF-Config-V1.0.md](https://github.com/arpablo/hkf-spec/blob/main/HKF-Config-V1.0.md#3-typdefinitionen), Abschnitte §3.4 bis §3.15. Weichen beide voneinander ab, gilt
-die Spezifikation — `tools/check-config.py` im Repository
-[`hkf-spec`](https://github.com/arpablo/hkf-spec) prüft das.
+## Warum
 
-## Was geliefert wird
+Der Grund steht in Config §1. Für die drei Kern-Typen `typedef`, `proptype`
+und `bundle` war es immer so: Ein Import muss Typdefinitionen ablegen und die
+Lieferung verbuchen können, bevor er irgendetwas anderes tut — ein Bundle, das
+sie mitbrächte, müsste sich selbst schon kennen.
 
-| Typ | Verzeichnis | Zweck |
-|---|---|---|
-| `person` | `Persons` | Ein Mensch. |
-| `organisation` | `Organisations` | Eine Körperschaft: Unternehmen, Institut, Verein, Behörde. |
-| `place` | `Places` | Ein geographischer Ort. |
-| `city` | `Citys` | Eine Stadt. |
-| `country` | `Countrys` | Ein Staat. |
-| `event` | `Events` | Ein Geschehen zu einer bestimmten Zeit. |
-| `source` | `Sources` | Eine zitierbare Quelle: Buch, Aufsatz, Webseite, Vortrag. |
-| `term` | `Terms` | Ein definierter Begriff. |
-| `concept` | `Concepts` | Eine Sache und der Stand des Wissens über sie. |
-| `comparison` | `Comparisons` | Eine Gegenüberstellung mehrerer Gegenstände entlang benannter Dimensionen. |
-| `topic` | `Topics` | Ein Themengebiet als Einstiegspunkt. |
-| `note` | `Notes` | Eine Notiz ohne spezifischeren Typ. |
-| `specification` | `Specifications` | Ein normatives Dokument, an das sich die Wissensbasis hält. |
-| `hint` | `Hints` | Eine Festlegung, wie diese Wissensbasis geführt wird. |
+Für die übrigen gilt derselbe Schluss aus einem einfacheren Grund: Was jede
+Wissensbasis ohnehin bekommt, muss niemand ausliefern. Ein Bundle bringt
+Inhalte mit und, wenn es einen Typ braucht, den Config nicht kennt, dessen
+Typdefinition dazu — nie eine von hier.
 
-Dazu die beiden Property-Typen `hkf-person-category` und
-`hkf-organisation-category`, die nur mit `person` und `organisation` Sinn
-ergeben.
-
-**Keine Notizen, keine Mediendateien, keine Grundausstattung.** Die
-Property-Typen und die Kern-Typen `typedef`, `proptype` und `bundle` legt eine
-Wissensbasis beim Anlegen selbst an; ein Bundle liefert sie nicht.
-
-## Verwenden
-
-Das Bundle wird mit [`hk-import`](https://github.com/arpablo/hkf-harness) in eine bestehende Wissensbasis
-geladen — etwa
-in eine, die aus der Vorlage [`hkf-kb-template`](https://github.com/arpablo/hkf-kb-template) entstanden
-ist.
-Danach steht dort in `bundles/hkf-base.md` eine Notiz mit dem Importnachweis, und
-jede übernommene Typdefinition trägt die Zugehörigkeit in ihrer
-`bundles`-Property.
-
-Der Import ist **freiwillig**. Eine Wissensbasis, die andere Gegenstände
-verwaltet, definiert stattdessen eigene Typen. Wer aber einen Typ dieses
-Namens führt, führt ihn in dieser Fassung — nur so bleiben Bundles zwischen
-fremden Wissensbasen austauschbar.
-
-## Fortschreibung
-
-Die Regeln dafür stehen in [§5 von HKF-Config-V1.0.md](https://github.com/arpablo/hkf-spec/blob/main/HKF-Config-V1.0.md#5-versionierung).
-Eine neue Fassung darf Typen ergänzen, Properties ergänzen und die `values`
-der beiden Aufzählungen erweitern. Sie darf nichts entfernen und keine
-Bedeutung ändern, weil das vorhandene Notizen ungültig machte.
-
-Fortschreibung in einer Wissensbasis ist ein erneuter Import: geänderte
-Notizen werden übernommen, unveränderte übersprungen.
+Die Kennung `hkf-base` bleibt vergeben. Sie benannte eine Lieferreihe, und
+eine Kennung wird nach Core §4.1 nicht neu vergeben.
