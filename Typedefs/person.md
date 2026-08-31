@@ -3,7 +3,7 @@ type: typedef
 title: Person
 description: Ein Mensch.
 created: 2026-08-27
-modified: 2026-08-31T15:25:58
+modified: 2026-08-31T18:06:05
 modified_by: claude-opus-5
 ---
 
@@ -16,7 +16,7 @@ modified_by: claude-opus-5
 | born_year | hkf-year | nein | — | Geburtsjahr, wenn kein vollständiges Datum bekannt ist |
 | died | date | nein | — | Sterbedatum |
 | died_year | hkf-year | nein | — | Sterbejahr, wenn kein vollständiges Datum bekannt ist |
-| birthplace | hkf-link:place | nein | — | Geburtsort |
+| birthplace | hkf-link:place,city,country | nein | — | Geburtsort |
 | p_categories | hkf-person-category-list | nein | — | Rollen der Person |
 | affiliations | hkf-link-list:organisation | nein | — | Zugehörigkeiten |
 | homepage | hkf-url | nein | — | Persönliche Webseite |

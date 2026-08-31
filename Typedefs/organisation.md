@@ -3,7 +3,7 @@ type: typedef
 title: Organisation
 description: 'Eine Körperschaft: Unternehmen, Institut, Verein, Behörde.'
 created: 2026-08-27
-modified: 2026-08-31T15:25:58
+modified: 2026-08-31T18:06:05
 modified_by: claude-opus-5
 ---
 
@@ -16,7 +16,7 @@ modified_by: claude-opus-5
 | dissolved | date | nein | — | Auflösungsdatum |
 | dissolved_year | hkf-year | nein | — | Auflösungsjahr, wenn kein Datum bekannt ist |
 | o_categories | hkf-organisation-category-list | nein | — | Art der Körperschaft |
-| seat | hkf-link:place | nein | — | Sitz |
+| seat | hkf-link:place,city,country | nein | — | Sitz |
 | parent | hkf-link:organisation | nein | — | Übergeordnete Körperschaft |
 | homepage | hkf-url | nein | — | Webseite |
 | email | hkf-email | nein | — | Kontaktadresse |

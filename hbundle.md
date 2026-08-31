@@ -4,7 +4,7 @@ type: bundle
 id: hkf-base
 base: ""
 title: HKF Base
-description: Das Vokabular aus HKF Config 1.0 — zwölf Typdefinitionen und die beiden Aufzählungen, die nur mit ihnen Sinn ergeben.
+description: Das Vokabular aus HKF Config 1.0 — vierzehn Typdefinitionen und die beiden Aufzählungen, die nur mit ihnen Sinn ergeben.
 source: https://github.com/arpablo/hkf-base
 version: "1.0"
 ---
@@ -23,6 +23,8 @@ das Bundle nicht — die legt eine HKB beim Anlegen selbst an.
 | person | Persons | Ein Mensch. |
 | organisation | Organisations | Eine Körperschaft: Unternehmen, Institut, Verein, Behörde. |
 | place | Places | Ein geographischer Ort. |
+| city | Citys | Eine Stadt. |
+| country | Countrys | Ein Staat. |
 | event | Events | Ein Geschehen zu einer bestimmten Zeit. |
 | source | Sources | Eine zitierbare Quelle: Buch, Aufsatz, Webseite, Vortrag. |
 | term | Terms | Ein definierter Begriff. |

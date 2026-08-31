@@ -1,7 +1,7 @@
 # hkf-base — das Vokabular aus HKF Config
 
 Dieses Repository ist ein **HKF-Bundle**. Es liefert das Vokabular aus
-[**HKF Config 1.0**](https://github.com/arpablo/hkf-spec/blob/main/HKF-Config-V1.0.md): zwölf Typdefinitionen und zwei Aufzählungen.
+[**HKF Config 1.0**](https://github.com/arpablo/hkf-spec/blob/main/HKF-Config-V1.0.md): vierzehn Typdefinitionen und zwei Aufzählungen.
 Wurzeldatei ist `hbundle.md`.
 
 | | |
@@ -24,6 +24,8 @@ die Spezifikation — `tools/check-config.py` im Repository
 | `person` | `Persons` | Ein Mensch. |
 | `organisation` | `Organisations` | Eine Körperschaft: Unternehmen, Institut, Verein, Behörde. |
 | `place` | `Places` | Ein geographischer Ort. |
+| `city` | `Citys` | Eine Stadt. |
+| `country` | `Countrys` | Ein Staat. |
 | `event` | `Events` | Ein Geschehen zu einer bestimmten Zeit. |
 | `source` | `Sources` | Eine zitierbare Quelle: Buch, Aufsatz, Webseite, Vortrag. |
 | `term` | `Terms` | Ein definierter Begriff. |
